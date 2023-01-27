@@ -22,9 +22,9 @@ public class App {
         clientes.add(ricardo);
         antonio.addCarrinho(criaCarrinhoAleatorio(3,"1"));
         antonio.addCarrinho(criaCarrinhoAleatorio(4,"2"));
-        joao.addCarrinho(criaCarrinhoAleatorio(2, "3"));
-        ricardo.addCarrinho(criaCarrinhoAleatorio(4, "4"));
-        ricardo.addCarrinho(criaCarrinhoAleatorio(2, "5"));
+        joao.addCarrinho(criaCarrinhoAleatorio(2, "1"));
+        ricardo.addCarrinho(criaCarrinhoAleatorio(4, "1"));
+        ricardo.addCarrinho(criaCarrinhoAleatorio(2, "2"));
         Checkout(clientes);
         Catalogo.getMaisVendidos(3); //passamos para o metodo o numero de entradas que queremos no nosso "top"
         
