@@ -67,7 +67,7 @@ public static void mediaTodosOsProdutos(ArrayList<Cliente> clientes){ //Metodo A
         total=total+cliente.getTotalCarrinhos();
     }
     media=total/numberProducts;
-    System.out.println(" Temos "+numberProducts+" Produtos Valor total dos Produtos "+total+" a media por carrinho é: "+media); 
+    System.out.println(" Temos "+numberProducts+" Produtos Valor total dos Produtos "+total+" a media por produto é: "+media); 
 
    }
 

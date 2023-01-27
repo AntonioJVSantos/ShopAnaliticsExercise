@@ -26,9 +26,9 @@ public class Catalogo {
         }
     }
     public void printCatalogo(){
+        System.out.println("Listagem do Catalogo com os Produtos disponiveis");
         for(var entry:this.produtos.entrySet()){
             System.out.println("ID: "+entry.getKey()+" Produto: "+entry.getValue().getNome()+" Preço: "+entry.getValue().getPreco());
-            // System.out.println(entry.getValue().getNome()+" "+entry.getValue().getQuantidadeTotal()+" Unidades present em "+entry.getValue().getCarrinhosTotal()+" Carrinhos");
         }
     }
     public Produto getProdutoById(String id){

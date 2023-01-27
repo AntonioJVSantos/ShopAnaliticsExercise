@@ -35,7 +35,7 @@ public class Cliente {
         }
     }
     public void printCarrinhos(){
-        System.out.println("  LISTAGEM DE CARRINHOS DO CLIENTE "+this.nome);
+        System.out.println("  Listagem de carrinhos do cliente: "+this.nome);
         for(Carrinho carrinho:carrinhos){
             carrinho.printToConsole();
             System.out.println("Custumer: "+this.nome+" has to pay : "+carrinho.getTotalCarrinho()+" For Cart ID: "+carrinho.getId());
