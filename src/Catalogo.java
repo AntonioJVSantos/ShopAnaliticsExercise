@@ -4,12 +4,12 @@ import java.util.HashMap;
 public class Catalogo {
 
     private static HashMap<String, Produto> produtos;
-    private static ArrayList<Produto> maisVendidos;
+    // private static ArrayList<Produto> maisVendidos;
     private static Catalogo catalogoUnico=null;
     
     private Catalogo(){
         this.produtos=new HashMap<>();
-        this.maisVendidos= new ArrayList<>();
+        // this.maisVendidos= new ArrayList<>();
     }
     public static Catalogo getCatalogo(){
         if(catalogoUnico==null){
